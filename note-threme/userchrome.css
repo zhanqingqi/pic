@@ -1,0 +1,60 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+.CodeMirror {
+  font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light !important;
+  letter-spacing: 2px;
+  background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.04) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.04) 3%, rgba(0, 0, 0, 0) 3%);
+  background-size: 20px 20px;
+  background-position: center center;
+  background-repeat:repeat;
+  word-wrap: break-word;
+}
+
+.CodeMirror * {
+    font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light !important;
+}
+
+div.cm-jn-code-block-background {
+	background-color: #F4F5F6 !important
+}
+
+.cm-jn-monospace {
+	font-family: "Operator Mono", Consolas, Monaco, Menlo, monospace !important;
+}
+
+.cm-comment .cm-s-default .cm-variable, .cm-s-default .cm-punctuation, .cm-s-default .cm-property, .cm-s-default {
+    color: #ddd !important;
+}
+
+.cm-def {
+    color: #00f !important;
+}
+
+.cm-jn-code-block .cm-jn-monospace {
+    font-family: "Operator Mono", Consolas, Monaco, Menlo, monospace !important;
+    color: #313640;
+}
+
+.cm-keyword {
+    color: #a626a4!important;
+}
+
+.cm-string {
+	color: #50a14f !important;
+}
+
+.cm-meta {
+    color: #4078f2 !important;
+}
+
+.cm-operator {
+	color: #A4B8C4 !important;
+}
+
+.cm-jn-code-block .cm-comment {
+	color: #b7ab71 !important;
+}
+
+.cm-jn-code-block .cm-type {
+    color: #085 !important;
+}
